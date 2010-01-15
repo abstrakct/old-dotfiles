@@ -1,0 +1,7 @@
+schedule = watch_directory,5,5,load_start=/home/rolf/Downloads/torrentwatch/*.torrent
+schedule = untied_directory,5,5,stop_untied=
+directory = /home/rolf/Downloads/
+upload_rate = 60
+download_rate = 800
+port_range = 60000-65000
+port_random = yes

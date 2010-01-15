@@ -1,0 +1,18 @@
+"2.1 (created: 2009/05/21 13:13:06)
+
+nmap gr gT
+nmap < <C-o>
+nmap > <C-i>
+nmap ø :
+nmap <Left> <C-x>
+nmap <Right> <C-a>
+
+command -nargs=* g open google <args>
+
+set runtimepath=/home/rolf/.vimperator
+source! /home/rolf/.vimperatorrc.local
+
+set visualbell
+set wildoptions=auto
+
+" vim: set ft=vim:
