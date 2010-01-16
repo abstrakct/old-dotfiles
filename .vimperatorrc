@@ -15,4 +15,5 @@ source! /home/rolf/.vimperatorrc.local
 set visualbell
 set wildoptions=auto
 
+set guioptions=B
 " vim: set ft=vim:
